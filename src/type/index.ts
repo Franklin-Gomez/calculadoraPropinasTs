@@ -3,3 +3,7 @@ type Items = {
     name : string,
     price :  number
 }
+
+type OrderItem = Items & {
+    quantity : number
+}
